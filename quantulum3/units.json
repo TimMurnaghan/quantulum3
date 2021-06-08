@@ -4348,5 +4348,19 @@
     "symbols": [
       "nt"
     ]
+  },
+  "tco2e" : {
+    "surfaces" : [
+      "tco2e"
+    ],
+    "entity" : "global warming potential",
+    "URI" : "tco2e",
+    "symbols" : [
+      "TCO2e"
+    ],
+    "dimensions": [],
+    "prefixes" : [
+      "k", "M", "G"
+    ]
   }
 }

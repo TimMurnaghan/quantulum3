@@ -808,5 +808,14 @@
       }
     ],
     "URI": "Data_transmission"
+  },
+  "global warming potential" : {
+    "dimensions" : [
+      {
+        "base": "mass",
+        "power": 1
+      }
+    ],
+    "URI": "Global_warming_potential"
   }
 }
