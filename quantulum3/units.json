@@ -4351,7 +4351,7 @@
   },
   "tco2e" : {
     "surfaces" : [
-      "tco2e"
+      "tco2e", "co2e", "tco2"
     ],
     "entity" : "global warming potential",
     "URI" : "tco2e",
