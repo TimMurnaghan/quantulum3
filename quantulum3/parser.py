@@ -185,7 +185,6 @@ def build_unit_name(dimensions, lang="en_US"):
     name = _get_parser(lang).name_from_dimensions(dimensions)
 
     _LOGGER.debug("\tUnit inferred name: %s", name)
-
     return name
 
 

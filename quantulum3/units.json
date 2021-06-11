@@ -4351,10 +4351,38 @@
   },
   "tco2e" : {
     "surfaces" : [
-      "tco2e", "co2e", "tco2"
+      "tco2e"
     ],
     "entity" : "global warming potential",
     "URI" : "tco2e",
+    "symbols" : [
+      "TCO2e"
+    ],
+    "dimensions": [],
+    "prefixes" : [
+      "k", "M", "G"
+    ]
+  },
+  "tco2" : {
+    "surfaces" : [
+      "tco2"
+    ],
+    "entity" : "global warming potential",
+    "URI" : "tco2",
+    "symbols" : [
+      "TCO2e"
+    ],
+    "dimensions": [],
+    "prefixes" : [
+      "k", "M", "G"
+    ]
+  },
+  "co2e" : {
+    "surfaces" : [
+      "co2e"
+    ],
+    "entity" : "global warming potential",
+    "URI" : "co2e",
     "symbols" : [
       "TCO2e"
     ],
