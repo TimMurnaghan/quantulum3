@@ -817,5 +817,18 @@
       }
     ],
     "URI": "Global_warming_potential"
+  },
+  "revenue scaled global warming potential" : {
+    "dimensions" : [
+      {
+        "base": "global warming potential",
+        "power": 1
+      },
+      {
+        "base": "currency",
+        "power": -1
+      }
+    ],
+    "URI": "Global_warming_potential"
   }
 }

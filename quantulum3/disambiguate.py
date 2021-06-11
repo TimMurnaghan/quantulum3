@@ -43,10 +43,10 @@ def disambiguate_entity(key, text, lang="en_US"):
     Resolve ambiguity between entities with same dimensionality.
     """
     try:
-        if clf.USE_CLF:
+        derived = load.entities().derived[key]
+        if len(derived) > 1 and clf.USE_CLF:
             ent = clf.disambiguate_entity(key, text, lang)
         else:
-            derived = load.entities().derived[key]
             if len(derived) > 1:
                 ent = no_clf.disambiguate_no_classifier(derived, text, lang)
                 ent = load.entities().names[ent]
