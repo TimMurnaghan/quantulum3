@@ -172,7 +172,7 @@ def build_quantity(orig_text, text, item, values, unit, surface, span, uncert):
                 ] + unit.original_dimensions[2:]
                 dimension_change = True
 
-        elif len(unit.original_dimensons) > 1 and unit.original_dimensions[0]["surface"] in reg.suffixes(lang).keys():
+        elif unit.original_dimensions[0]["surface"] in reg.suffixes(lang).keys():
             # k/M etc is only applied if non-symbolic surfaces of other units
             # (because colloquial) or currency units
             symbolic = all(
